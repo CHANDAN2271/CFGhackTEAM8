@@ -41,7 +41,8 @@
       grid-template-columns: repeat(1, auto);
       margin-top: 20px;
       text-align: right !important;
-  }
+      padding-top: 50px;
+   }
 
 .btn1 {
     background-color: rgb(61, 133, 198);
