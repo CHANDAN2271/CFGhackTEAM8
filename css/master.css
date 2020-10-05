@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 .header-text-style {
@@ -9,7 +10,6 @@
     font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 30px;
     color:  rgb(61, 133, 198);
-    
 }
     
 .mainHeader {
@@ -19,23 +19,10 @@
     padding : 40px;  
     margin : 0px;
 }
-
-.flex-sm-fill{
-    background-color:  rgb(61, 133, 198);
-    color: rgb(159, 197, 232);
-    size: 10px;
-}
-
-.active1{
-    background-color: rgb(159, 197, 232);;
-    color: white;
-}
-
 .h2Style {
     text-align: center;
     padding: 30px;
-    color: rgb(61, 133, 198);
-    
+    color: rgb(61, 133, 198); 
 }
 
 .nav-item {

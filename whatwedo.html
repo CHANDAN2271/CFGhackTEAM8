@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What we do</title>
-    <link rel="icon" href="pictures\logo.png" type="image/icon type">
-    <link rel="stylesheet" href="css\master.css">
-    <link rel="stylesheet" href="css\whatwedo.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>What we do</title>
+        <link rel="icon" href="pictures\logo.png" type="image/icon type">
+        <link rel="stylesheet" href="css\master.css">
+        <link rel="stylesheet" href="css\whatwedo.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js\master.js"></script>
 </head>
 <body>
     <header>
-        <div class= "headerHolder">
-            <h1 class= "mainHeader"> unBiased </h1>
+        <div class="menu-background">
+            <div class="pull-left">
+                <button onclick="resizeText(1)" class="btn btn-primary "><i id="increase-text-size" alt="increase font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-up"></i></i></button>
+                <button onclick="resizeText(-1)" class="btn btn-primary "><i id="decrease-text-size" alt="decrease font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-down"></i></i></button>
+            </div>
+            <div class="dropdown pull-right">
+                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-toggle="dropdown">Account</button>
+                <div class="dropdown-menu pull-right">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                            <label for="exampleEmail1">Email address</label>
+                            <input type="email" class="form-control" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="examplePassword1">Password</label>
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>   Sign in</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"> Don't have an account? Sign up</a>
+                    <a class="dropdown-item" href="#">Forgot password?</a>
+                </div>
+            </div>
         </div>
-          <ul class="nav nav-tabs nav-justified d-flex flex-column flex-sm-row">
+        <div class= "headerHolder">
+            <h1 class= "mainHeader">unBiased</h1>
+        </div>
+        <ul class="nav nav-tabs nav-justified d-flex flex-column flex-sm-row">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -30,14 +64,14 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="bot.html">Advice bot</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="contactus.html">Contact us</a>
-              </li>
-          </ul>
+            </li>
+        </ul>
     </header>
     <main>
         <section class="why">
