@@ -40,7 +40,7 @@
 }
 .parallax { 
     /* The image used */
-    background-image: url("pictures/pexels-fauxels-3184424.jpg");
+    background-image: url("../pictures/pexels-fauxels-3184424.jpg");
     /* Set a specific height */
     height: 300px; 
     /* Create the parallax scrolling effect */
