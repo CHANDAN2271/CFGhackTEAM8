@@ -244,3 +244,7 @@
   top: 50%;
   position: absolute;
 }
+
+.page-footer{
+  background-color: white !important;
+}
