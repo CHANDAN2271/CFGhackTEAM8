@@ -63,7 +63,8 @@
 
 .padding-footer-links {
     padding: 15px;
-    color: rgb(3, 38, 68)
+    color: rgb(3, 38, 68);
+    background: white;
 }
 
 .footer-style{
@@ -81,4 +82,8 @@
 .footer-text-logo{
     text-decoration: none;
     color: white;
+}
+
+.summary {
+    text-align: center;
 }
