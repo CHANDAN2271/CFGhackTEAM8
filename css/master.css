@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-size: 20px;
 }
+.x-large {
+    font-size: 60px;
+    color: white;
+}
 
 .header-text-style {
     text-align: center;
@@ -13,11 +17,11 @@
 }
     
 .mainHeader {
-    background-color : rgb(61, 133, 198);
-    color : white;
+    background-color: rgb(61, 133, 198);
+    color: white;
     text-align: center;
-    padding : 40px;  
-    margin : 0px;
+    padding: 25px;  
+    margin: 0px;
 }
 .h2Style {
     text-align: center;
@@ -26,12 +30,14 @@
 }
 
 .nav-item {
-    background-color:  rgb(61, 133, 198);
+    background-color: rgb(61, 133, 198);
 }
 .nav-link {
     color: white;
 }
-
+.exampleEmail1 {
+    font-size: 20px;
+}
 .parallax { 
     /* The image used */
     background-image: url("pictures/pexels-fauxels-3184424.jpg");
